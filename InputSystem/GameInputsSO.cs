@@ -1,4 +1,4 @@
-using UnityEngine;
+/*using UnityEngine;
 
 [CreateAssetMenu]
 public class GameInputsSo : ScriptableObject
@@ -9,4 +9,4 @@ public class GameInputsSo : ScriptableObject
     {
         gameInputsObj = new GameInputs();
     }
-}
+}*/

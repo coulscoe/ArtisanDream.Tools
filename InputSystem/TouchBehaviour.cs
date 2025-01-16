@@ -1,4 +1,4 @@
-using UnityEngine;
+/*using UnityEngine;
 using UnityEngine.InputSystem;
 
 public class TouchBehaviour : MonoBehaviour
@@ -31,4 +31,4 @@ public class TouchBehaviour : MonoBehaviour
         touchData.positionEnd = gameInputs.gameInputsObj.mTouch.ContactPostion.ReadValue<Vector2>();
         Debug.Log(touchData.positionEnd);
     }
-}
+}*/

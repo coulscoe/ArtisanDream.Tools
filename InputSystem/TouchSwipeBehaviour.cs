@@ -1,4 +1,4 @@
-using UnityEngine;
+/*using UnityEngine;
 using UnityEngine.Events;
 using UnityEngine.InputSystem;
 
@@ -55,4 +55,4 @@ public class TouchSwipeBehaviour : MonoBehaviour
         touchData.direction = new Vector2(vectorDir.x, vectorDir.y);
         touchData.force = touchData.timeEnd - touchData.timeStart;
     }
-}
+}*/

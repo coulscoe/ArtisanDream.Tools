@@ -1,4 +1,4 @@
-using UnityEngine;
+/*using UnityEngine;
 
 [RequireComponent(typeof(TouchSwipeBehaviour))]
 [RequireComponent(typeof(Rigidbody))]
@@ -19,4 +19,4 @@ public class RigidBodyWithTouch : MonoBehaviour
      {
           rb.AddForce(data.direction*data.force*force);
      }
-}
+}*/

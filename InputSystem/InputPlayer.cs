@@ -1,5 +1,5 @@
 using UnityEngine;
-public class InputPlayer : MonoBehaviour
+/*public class InputPlayer : MonoBehaviour
 {
     public GameInputsSo controls;
     private Vector2 move, movement;
@@ -25,4 +25,4 @@ public class InputPlayer : MonoBehaviour
         movement *= speed.Value * UnityEngine.Time.deltaTime;
         transform.Translate(movement, Space.World);
     }
-}
+}*/

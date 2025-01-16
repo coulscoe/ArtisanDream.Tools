@@ -9,7 +9,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-using System;
+/*using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine.InputSystem;
@@ -481,4 +481,4 @@ public partial class @GameInputs: IInputActionCollection2, IDisposable
         void OnContact(InputAction.CallbackContext context);
         void OnContactPostion(InputAction.CallbackContext context);
     }
-}
+}*/
