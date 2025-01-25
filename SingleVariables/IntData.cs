@@ -48,7 +48,16 @@ public class IntData : ScriptableObject
         valueOutOfRange.Invoke(value);
         Value = Mathf.Clamp(Value, minValue, maxValue);
     }
-
+    public void CompareValue(IntData obj)
+    {
+        if (value >= obj.value)
+        {
+        }
+        else
+        {
+            value = obj.value;
+        }
+    }
     public void UpdateValueZeroCheck(int i)
     {
         if (value + i < 0) return;
