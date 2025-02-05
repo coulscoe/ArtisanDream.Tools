@@ -5,11 +5,11 @@ using UnityEngine.Serialization;
 [CreateAssetMenu(menuName = "Single Variables/IntData")]
 public class IntData : ScriptableObject
 {
-    [SerializeField] private int value, minValue, maxValue;
+    [SerializeField] public int value, minValue, maxValue;
 
     public UnityEvent<float> valueOutOfRange;
     public UnityEvent onValueChanged;
-
+    
     public int Value
     {
         get => value;
