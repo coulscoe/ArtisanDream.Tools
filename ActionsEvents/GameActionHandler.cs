@@ -42,7 +42,7 @@ public class GameActionHandler : MonoBehaviour
     private IEnumerator RespondLate()
     {
         yield return waitObj;
-        InvokeEvent(respondLateEvent);
+        respondLateEvent.Invoke();
     }
 
     private void InvokeEvent(UnityEvent evt)
